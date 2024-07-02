@@ -11,7 +11,8 @@ def bits_to_text(bits):
     except UnicodeDecodeError:
         # Handle decoding errors
         return "Unable to decode message"
-        
+
+
 def decode_image(img_path):
     """Decode a message from an image."""
     img = Image.open(img_path)  # Open the image
@@ -37,3 +38,7 @@ def decode_image(img_path):
 # This part extracts and prints the hidden message from the image "encoded_image.png".
 decoded_message = decode_image('encoded_image.png')
 print('Decoded message:', decoded_message)
+
+# Name of the programmer: Maryam Jamali
+# Email address: m.jamali16@yahoo.com
+# GitHub address: https://github.com/MaryaJamali
