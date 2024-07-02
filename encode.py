@@ -34,8 +34,8 @@ def encode_image(img_path, message, output_path):
 
 # This part hides the message in the image "input_image.png" and saves the result in "encoded_image.png".
 encode_image('input_image.png',
-             'Hello, my name is Maryam Jamali. I would be happy if you could tell me your opinion about my code in my email My email: m.jamali16@yahoo.com'
-                      'encoded_image.png')
+             'Hello, my name is Maryam Jamali. I would be happy if you could tell me your opinion about my code in my email My email: m.jamali16@yahoo.com',
+             'encoded_image.png')
 
 # Name of the programmer: Maryam Jamali
 # Email address: m.jamali16@yahoo.com
