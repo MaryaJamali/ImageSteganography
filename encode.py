@@ -8,7 +8,8 @@ def text_to_bits(text):
     bits = bin(int.from_bytes(text.encode('utf-8', 'surrogatepass'), 'big'))[2:]
     # Pad with zeros to ensure the length of bits is a multiple of 8
     return bits.zfill(8 * ((len(bits) + 7) // 8))
-    
+
+
 def encode_image(img_path, message, output_path):
     """Encode a message into an image."""
     img = Image.open(img_path)  # Open the image
