@@ -2,8 +2,8 @@
 ## Description
 This project provides a simple implementation of image steganography using Python. It allows you to hide a text message within an image and then extract it later.
 ## Features
-- Encode a message into an image:** Hide a secret message inside an image.
-- Decode a message from an image:** Extract the hidden message from an image.
+- Encode a message into an image : 👉 Hide a secret message inside an image.
+- Decode a message from an image : 👉 Extract the hidden message from an image.
 ## Requirements
 - Python 3.x
 - Required libraries:
